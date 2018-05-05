@@ -1,5 +1,6 @@
-const express   =   require('express');
-const mongoose  =   require('mongoose');
+const express   = require('express');
+const mongoose  = require('mongoose');
+const db        = require('inventoryDB');
 
 const PORT =7878;
 
