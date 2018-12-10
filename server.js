@@ -12,7 +12,7 @@ const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'mongoose connection error:'));
 db.once('open', function() {
-  console.log("\n db connected, mongoose did it");
+  console.log("\n db connected, mongoose did itt");
 });
 
 app.use(express.static(__dirname + '/public'));
